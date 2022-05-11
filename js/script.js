@@ -102,7 +102,7 @@
             if(val==divs[i].innerHTML){
             h1.innerHTML=" "
             count++
-            count.play()
+            music.play()
             divs[i].remove()
             h1.innerHTML=count
             words.append(h1)
